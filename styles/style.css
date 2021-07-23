@@ -1,0 +1,290 @@
+*{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.container
+{
+position: sticky;
+top: 0px;
+background-color: black;
+height:10vh;
+width:100%;
+display: flex;
+
+}
+.logo
+{
+margin-left: 300px;
+height: 100%;
+width: 50%;
+
+}
+.logo h1{
+  color: white;
+  padding-top: 30px;
+}
+.navigation
+{
+display: flex;
+margin: 20px 50px;
+margin-left: 400px;
+align-items: center;
+width: 100%;
+}
+
+.items
+{
+font-family: Montserrat,sans-serif;
+font-size: 14px;
+color: white;
+text-decoration: none;
+align-items: center;
+}
+.items:hover
+{
+ 
+text-decoration: underline;
+}
+.abt-container{
+  height: 100vh;
+  background-color: black;
+  margin-top: 0px;
+}
+.about{
+  display: flex;
+}
+.images
+{
+  margin-left: 200px;
+  margin-top: 200px;
+}
+.data h1{
+  font-family: 'Otomanopee One', sans-serif;
+  font-size:3rem;
+  color:#FF8303;
+  text-decoration: underline;
+  margin-left: 500px;
+  margin-top: 200px;
+
+}
+.data h5{
+  font-family: 'Bona Nova', serif;
+  font-size: 1.5rem;
+  color: #F21170;
+  margin-left: 500px;
+}
+.data p{
+  margin-left: 500px;
+  color: white;
+}
+
+section
+{
+height:600px;
+background-color:black; 
+}
+.headings{
+  height: 20vh;
+  background-color: black;
+  color: white;
+
+}
+.headings h2{
+  padding-top:90px;
+  padding-left: 900px;
+  font-family: 'Bona Nova', serif;
+  font-size: 2rem;
+}
+.grids
+{
+
+height:50vh;
+width: 80%;
+margin: auto;
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+background-color:#A35709; 
+border: 2px solid #FF8303;
+
+}
+img
+{
+height: 100%;
+width: 100%;
+}
+.img-cont
+{
+border-radius: 5px;
+background-color:black; 
+text-align: center;
+font-family: 'Bona Nova', serif;
+}
+.img-cont h2{
+  color:#FF8303;
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+.img-cont a{
+  color: white;
+}
+
+.one
+{
+grid-column: 2/6;
+grid-row: 5/6;
+
+}
+.img1{
+grid-column: 2/6;
+grid-row: 7/38;
+}
+.four{
+  grid-column: 2/6;
+  grid-row: 40/43;
+}
+.two{
+grid-column:8/12;
+grid-row:5/6 ;
+}
+.img2{
+grid-column:8/12;
+grid-row:7/38;
+}
+.five{
+  grid-column: 8/12;
+  grid-row: 40/43;
+}
+.three{
+grid-column:14/18;
+grid-row:5/6;
+}
+.img3{
+grid-column:14/18 ;
+grid-row:7/38;
+}
+.six{
+  grid-column: 14/18;
+  grid-row: 40/43;
+}
+
+.contacts{
+  height: 100vh;
+  background-color: black;
+  margin-top: 0px;
+  border: 4px solid black;
+}
+.container1 {
+	max-width:800px;
+	width:100%;
+	margin:0px auto;
+  margin-top: 80px;
+}
+
+
+#contact h4 {
+  margin:5px  15px;
+	color: #F96;
+	display: block;
+	font-size:2rem;
+	/* font-weight: 400; */
+}
+
+.texts{
+  width:40%;
+	border:1px solid #CCC;
+	background:#FFF;
+	/* margin:0 0 5px; */
+  margin-left: 170px;
+  margin-top: 8px;
+	padding:10px;
+}
+#contact-submit{
+	width:20%;
+	border:none;
+	background: #F96;
+	color:black;
+  margin-left: 260px;
+  margin-top: 5px;
+	padding:10px;
+	font-size:15px;
+}
+@media (max-width: 1980px) {
+  .logo{
+  width: 40%;
+  }
+  .menu{
+  display: none;
+  }
+  }
+@media (max-width: 1607px){
+  .headings h2{
+    padding-left: 600px;
+  }
+
+}
+@media (max-width: 1243px) { 
+  .data h1{
+    margin-left:100px;
+  }
+  .data p{
+    margin-left: 100px;
+  }
+  .data h5{
+    margin-left: 100px;
+  }
+  .headings h2{
+    padding-left: 500px;
+  }
+}
+@media (max-width: 1207px) {
+.navigation{
+  margin-left: 100px;
+}
+.logo{
+  margin-left: 0px;
+}
+}
+@media (max-width: 836px)
+{
+  .grids{
+    width: 100%;
+  }
+  .headings h2{
+    padding-left: 300px;
+  }
+  .images{
+    margin-left: 10px;
+  }
+  .data h1{
+    margin-left:50px;
+  }
+  .data p{
+    margin-left: 50px;
+  }
+  .data h5{
+    margin-left: 50px;
+  }
+
+}
+@media (max-width: 607px)
+{
+  .navigation{
+    display: none;
+  }
+  .menu{
+    display: unset;
+    width: 20%;
+
+  }
+  .container1{
+    max-width: 500x;
+
+  }
+  .texts{
+    margin-left: 100px;
+  }
+  #contact-submit{
+    margin-left: 100px;
+  }
+}
